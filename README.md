@@ -360,3 +360,43 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 - Inspired by research in decentralized voting and e-governance
 - Built as a portfolio project to demonstrate advanced Python development practices
+
+---
+
+<!-- showcase:start -->
+
+## Architecture
+
+```mermaid
+flowchart LR
+    Voter[Voter] --> Identity[Identity Verification]
+    Identity --> Register[Voter Registry]
+    Voter --> Cast[Cast Vote]
+    Cast --> ZKP[ZKP Eligibility Proof]
+    ZKP --> Sign[HMAC Signature]
+    Sign --> Block[Vote Chain Block]
+    Block --> Chain[(Vote Chain)]
+    Chain --> Tally[Tally Engine]
+    Tally --> Validators[Consensus Validators]
+    Validators --> Result[Verified Result]
+```
+
+## Test Results
+
+![Test results](docs/test_results.png)
+
+**170 passing**, **0 failing**, **2 skipped** (total 172, framework: pytest)
+
+## References & Further Reading
+
+- Goldwasser, S., Micali, S., & Rackoff, C. (1989). *The Knowledge Complexity of Interactive Proof Systems.* SIAM Journal on Computing 18(1). [↗](https://epubs.siam.org/doi/10.1137/0218012)
+- Chaum, D. (1981). *Untraceable Electronic Mail, Return Addresses, and Digital Pseudonyms.* CACM 24(2). [↗](https://dl.acm.org/doi/10.1145/358549.358563)
+- Krawczyk, H., Bellare, M., & Canetti, R. (1997). *HMAC: Keyed-Hashing for Message Authentication.* RFC 2104. [↗](https://datatracker.ietf.org/doc/html/rfc2104)
+
+## Author
+
+**Manikanta Reddy Mandadhi** — Senior Data Scientist (RAG / Agentic AI)
+
+GitHub: [@Mani9006](https://github.com/Mani9006/decentralized-voting) · LinkedIn: [reddy1999](https://www.linkedin.com/in/reddy1999) · Portfolio: [manikantabio.com](https://www.manikantabio.com)
+
+<!-- showcase:end -->
