@@ -365,6 +365,20 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 <!-- showcase:start -->
 
+## Research Report
+
+**End-to-End Verifiable Electronic Voting with Cryptographic Audit**
+
+_An evaluation of cryptographic protocols for verifiable, anonymous, and auditable elections_
+
+A self-contained research-grade report (Abstract, Introduction, Research Problem, Research Questions, Literature Review, Research Method, Data Description, Analysis, Discussion, Conclusion, Future Work, References) is published with this repository.
+
+[Read the full report (PDF)](docs/research_report.pdf)
+
+**Keywords:** electronic voting, ElGamal, mix-net, end-to-end verifiability, ballot anonymity
+
+![Research metrics](docs/research_metrics.png)
+
 ## Architecture
 
 ```mermaid
